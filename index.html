@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://kit.fontawesome.com/622735c48c.js" crossorigin="anonymous"></script>
+    </head>
+    <body> 
+      <section class="container">
+        <article class="login">
+            <img class="logo" src="instagramlogo.png" alt="instagram-logo" />
+            <form action="#" id="form">
+                <div class="form-input">
+                    <input type="text" name="text" id="name" placeholder="Phone number, username, or email address" />
+                </div>
+                <div class="form-input">
+                    <input type="password" name="password" id="password" placeholder="Password"/>
+                    <i class="fa-regular fa-eye-slash" id="eye" onclick="showPassword()"></i>
+                </div>
+                <div class="form-btns">
+                    <button id="forgotpassword-btn">Forgotten Password?</button>
+                    <button id="login-btn" type="submit">Log In</button>
+                    <p class="or">OR</p>
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <button id="facebook-btn">Continue as Emily</button>
+                    <div class="signup">
+                        <p class="account">Don't have an account?</p>
+                        <button id="signup-btn">Sign Up</button>
+                    </div>
+                </div>
+            </form>
+        </article>
+      </section>
+        
+        <script src="app.js" async defer></script>
+    </body>
+</html>

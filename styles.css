@@ -1,0 +1,161 @@
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.logo{
+    width: 320px;
+}
+
+.fa-regular{
+    position: absolute; 
+    right: 27px; 
+    top: 42%; 
+    transform: translateY(-50%); 
+    cursor: pointer;
+    color: #bab9b9;
+}
+
+.form-input{
+    padding: 5px;
+}
+
+#form{
+    position: absolute;
+    top: 240px;
+    left: 590px;
+}
+#name{
+    padding: 10px;
+    width: 330px;
+    height: 18px;
+    border-radius: 5px;
+    border: 1px solid #d3d3d3;
+}
+
+#password{
+    padding: 10px;
+    width: 330px;
+    height: 18px;
+    border-radius: 5px;
+    border: 1px solid #d3d3d3;
+}
+
+.form-btns{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-top: 40px;
+}
+
+#forgotpassword-btn{
+    background: none;
+    border: none;
+    color: inherit;
+    text-decoration: none;
+    font: inherit;
+    cursor: pointer;
+    border-bottom: 1px solid #019afe; 
+    color: #019afe; 
+    padding: 0;
+    width: 124px;
+    position: absolute;
+    top: 100px;
+    left: 236px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    padding-top: 9px;
+}
+
+#login-btn{
+    padding: 14px;
+    border-radius: 5px;
+    background-color: #59cbff;
+    border: none;
+    color: #fff;
+    text-decoration: underline;
+    position: absolute;
+    top: 200px;
+    width: 360px;
+}
+
+.or{
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #848484;
+}
+
+.or::before,
+.or::after {
+    content: "";
+    height: 1px;
+    width: 40%;
+    background-color: #dfdfdf; /* color of the lines */
+    position: absolute;
+    top: 90%;
+}
+
+.or::before {
+    right: 10px; /* adjust the right position of the left line */
+}
+
+.or::after {
+    left: 10px; /* adjust the left position of the right line */
+}
+
+#facebook-btn{
+    background: none;
+    border: none;
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    border-bottom: 1px solid #019afe; 
+    color: #019afe; 
+    padding: 0;
+    width: 110px;
+    position: absolute;
+    top: 255px;
+    left: 140px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    padding-top: 9px;
+}
+
+.fa-brands{
+    color: #019afe; 
+    position: absolute;
+    top: 263px;
+    left: 120px;
+}
+
+.signup{
+   position: absolute;
+    top: 390px;
+    left: 90px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+#signup-btn{
+    background: none;
+    border: none;
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    border-bottom: 1px solid #019afe; 
+    color: #019afe; 
+    padding: 0px;
+}
+
+.account{
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #a6a6a6;
+}
